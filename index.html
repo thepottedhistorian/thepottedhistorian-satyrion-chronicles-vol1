@@ -5,30 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Satyrion Chronicles, Vol. I: The Binary Root</title>
     <style>
-        /* Library Aesthetic & Desktop Spotlight */
-        body, html { 
-            margin: 0; 
-            padding: 0; 
-            height: 100%; 
-            overflow: hidden; 
-            background-color: #1a140f; 
-        }
-
+        body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; background-color: #1a140f; }
         #viewer-container { 
-            width: 100%; 
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            width: 100%; height: 100vh; display: flex; justify-content: center; align-items: center;
             background: radial-gradient(circle, #3d2f24 0%, #1a140f 100%);
         }
-
         iframe { 
-            width: 100%; 
-            height: 100%; 
-            border: none;
-            /* PARCHMENT FILTER: Warms the digital pages to aged vellum */
-            filter: sepia(0.35) brightness(0.92) contrast(1.1);
+            width: 100%; height: 100%; border: none;
+            /* REFINED FILTER: 
+               - sepia(0.25): Lowered to keep the tint subtle
+               - contrast(1.4): Increased significantly to turn dark brown text back to black
+               - brightness(0.95): Keeps the digital glare down
+            */
+            filter: sepia(0.25) contrast(1.4) brightness(0.95);
             box-shadow: 0 0 60px rgba(0,0,0,0.8);
         }
     </style>
