@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Satyrion Chronicles, Vol. I: The Binary Root</title>
     <style>
+        /* Scriptorium Frame */
         body, html { 
             margin: 0; 
             padding: 0; 
@@ -19,29 +20,28 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            /* Using your specific parchment texture as the desk background */
+            /* Background texture from your Drive/GitHub */
             background-image: url('parchment.jpg');
             background-size: cover;
             background-position: center;
         }
 
         iframe { 
-            width: 90%; /* Slightly smaller to show the parchment border */
-            height: 90%; 
+            width: 95%; 
+            height: 95%; 
             border: none;
-            /* Removed all sepia filters to keep the text crisp black */
+            /* NO FILTERS: Keeps text pure black and perfectly sharp */
             box-shadow: 0 0 60px rgba(0,0,0,0.8);
-            background-color: transparent;
         }
     </style>
 </head>
 <body>
 
     <div id="viewer-container">
-<iframe 
-    src="https://flowpaper.com/flipbook/https://thepottedhistorian-satyrion-chronicles.vercel.app/satyrion-chronicles_v1.pdf" 
-    allowfullscreen>
-</iframe>
+        <iframe 
+            src="https://flowpaper.com/flipbook/https://thepottedhistorian-satyrion-chronicles.vercel.app/satyrion-chronicles_v1.pdf" 
+            allowfullscreen>
+        </iframe>
     </div>
 
 </body>
