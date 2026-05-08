@@ -6,7 +6,7 @@
 This repository serves as the official digital home for the first volume of the *Satyrion Chronicles*. This research report documents the botanical, cultural, and folk history of the Early Purple Orchid.
 
 ### Interactive Edition
-The contents of this repository are deployed via Netlify to power the interactive flipbook hosted at [The Potted Historian](https://thepottedhistorian.com).
+The contents of this repository are deployed via Vercel to power the interactive flipbook hosted at [The Potted Historian](https://thepottedhistorian.com).
 
 ### Abstract
 From the "Satyrion" roots of Dioscorides to the woodcuts of the 16th-century Dutch herbals, *The Binary Root* explores how human perception of *Orchis mascula* shifted from magical talisman to botanical specimen.
